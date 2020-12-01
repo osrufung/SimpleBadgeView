@@ -3,10 +3,7 @@ import XCTest
 
 final class SimpleBadgeViewTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SimpleBadgeView().text, "Hello, World!")
+        XCTAssertEqual(SimpleBadgeView().count, 0)        
     }
 
     static var allTests = [
