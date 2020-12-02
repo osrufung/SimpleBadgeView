@@ -18,7 +18,6 @@ public struct SimpleBadgeView: View {
     }
     
     public var body: some View {
-        if count != nil {
             Circle()
                 .foregroundColor(backgroundColor)
                 .frame(width: 30, height: 30)
@@ -43,7 +42,6 @@ public struct SimpleBadgeView: View {
                     dim.height / 2
                 })
                 .opacity(count == 0 ? 0 : 1)
-        }
     }
 }
 
