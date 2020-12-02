@@ -3,7 +3,14 @@
 A simple View extension to add a badge on one of the corners of your view. Alignment can be configured and also the background color.
 
 
-Basic example:
+## Supported Platforms :iphone:
+
+- iOS 13.0.
+
+
+## Usage
+
+### Basic example:
 
 ```
 Text("Hello")
@@ -12,7 +19,7 @@ Text("Hello")
     .badge(count: count)
 ```
 
-A more customized example:
+### A more customized example:
 
 ```
 Button("Button with Badge") { }
