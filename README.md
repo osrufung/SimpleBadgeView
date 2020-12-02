@@ -12,4 +12,11 @@ Text("Hello")
     .badge(count: count)
 ```
 
-A m
+A more customized example:
+
+```
+Button("Button with Badge") { }
+    .padding()
+    .background(Color.yellow)
+    .badge(count: 1000, alignment: .bottomTrailing, color: .green)
+```
